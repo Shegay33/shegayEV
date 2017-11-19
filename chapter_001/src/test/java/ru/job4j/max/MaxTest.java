@@ -20,7 +20,7 @@ public class MaxTest {
      */ @Test
 	public void maxValue() {
 		 Max maxim = new Max();
-		 int result = maxim.max(2, 3);
-		 assertThat(result, is(3));
+		 int result = maxim.max(2, 3, 4);
+		 assertThat(result, is(4));
 	}  
 }
